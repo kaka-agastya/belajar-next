@@ -2,7 +2,7 @@ import Image from "next/image";
 import FadeIn from '../components/ui/FadeIn';
 
 export default function Home() {
-  const nama = "Kaka"
+  const nama = "Kaka Agastya"
   return (
     <section className="text-center py-20">
       <FadeIn>
