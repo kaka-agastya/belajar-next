@@ -1,5 +1,5 @@
 import ProjectCard from '../../components/ui/ProjectCard';
-import HoverEffect from '@/components/ui/HoverEffect';
+import HoverEffect from '@components/ui/HoverEffect';
 
 
 const projects = [
