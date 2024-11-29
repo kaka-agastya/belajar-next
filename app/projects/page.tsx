@@ -1,4 +1,6 @@
 import ProjectCard from '../../components/ui/ProjectCard';
+import HoverEffect from '@/components/ui/HoverEffect';
+
 
 const projects = [
   {
@@ -24,12 +26,14 @@ export default function ProjectsPage() {
       <h1 className="text-3xl font-bold">My Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
         {projects.map((project, index) => (
+          <HoverEffect key={index}>
           <ProjectCard
             key={index}
             title={project.title}
             description={project.description}
             image={project.image}
           />
+          </HoverEffect>
         ))}
       </div>
     </section>
