@@ -18,6 +18,11 @@ const projects = [
     description: "An e-commerce platform built with Node.js and MongoDB.",
     image: "/images/project2.jpg",
   },
+  {
+    title: "Project Three",
+    description: "An e-commerce platform built with Node.js and MongoDB.",
+    image: "/images/project2.jpg",
+  },
 ];
 
 export default function ProjectsPage() {
