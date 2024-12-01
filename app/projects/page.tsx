@@ -19,7 +19,7 @@ const projects = [
     image: "/images/project2.jpg",
   },
   {
-    title: "Project Three",
+    title: "Project Four",
     description: "An e-commerce platform built with Node.js and MongoDB.",
     image: "/images/project2.jpg",
   },
